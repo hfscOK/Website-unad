@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+/*header*/
+body{
+    background-color:#272928 ;
+}
+.header-noticia2
+{ 
+    width: 30%;
+    height: 10vh; 
+}
+.div-header2
+{
+   color: beige;
+}
+a{
+    text-decoration: none;
+    align-items: center;
+    color: beige;
+}
+
+.boo
+{
+    position: absolute;
+    top: 0px;
+    left: 1605px;
+    width: 5%;
+}
+
+/*main*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    color: beige;
+     height: 4%;
+     font-size: 1.5rem;
+     justify-content: center;
+}
+p{
+    color: beige;
+     height: 4%;
+     font-size: 1.3rem;
+}

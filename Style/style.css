@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+ /* header */ 
+body{
+     background-color:#272928 ;
+}
+
+.head-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;   
+}
+
+.stein
+{
+width: 35%;
+}
+.nombre-1{
+    width: 18%;
+    color:beige;
+    border-radius: 5%;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+.nav-cont{
+    width: 12%;
+    justify-content:center;
+    color: beige;   
+    text-align: center;
+    font-size: 1rem;  
+}
+a{
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    border-radius: 5px 5px 5px 5px;    
+}
+
+/*main */
+/*section 1*/
+
+.primera
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+ h1{
+     color: beige;
+     height: 4%;
+     font-size: 1.5rem;
+     justify-content: center;
+ }
+
+ .main-titulo
+ {
+width: 80%;
+ }
+
+ /*section 2*/
+ 
+ .segunda
+ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+ }
+/* primera noticia */
+ .div-1
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    align-items: center;
+ }
+h3
+{
+    color: beige;
+    height: 4%;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.gato-malo
+{
+    width: 30%;
+}
+.noticia-1
+{
+    font-size: x-small;
+    background-color: #272928;
+    color: beige;
+}
+
+/*segunda noticia*/
+.div-2
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.gainimedes
+{
+    width: 30%;
+}
+
+.noticia-2
+{
+    font-size: x-small;
+    background-color: #272928;
+    color: beige;
+}
+
+/*tercera noticia*/
+.div-3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center; 
+}
+
+.ruinas
+{
+    width: 30%;
+}
+
+.noticia-3
+{
+    font-size: x-small;
+    background-color: #272928;
+    color: beige;
+}
+
+/*footer*/
+.footer-1
+{
+ height: 100%;
+    width: 100%;
+}
+.footer-div
+{
+    font-size: x-small;
+    color: beige;
+}
+
+/*section grid a.k.a segunda*/ 
+
+.segunda{
+    display:grid ;
+    grid-template-columns: 80% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid-1 h3{
+    justify-content: space-around;
+    font-size: larger;
+}
+.grid-1 a{
+    font-weight: bolder ;
+}
+.grid-2 h3{
+    justify-content: space-around;
+    font-size: larger;
+}
+.grid-2 a{
+    font-weight: bolder ;
+}
+.grid-3 h3{
+    justify-content: space-around;
+    font-size: larger;
+}
+.grid-3 a{
+    font-weight: bolder ;
+}
